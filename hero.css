@@ -1,0 +1,33 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: rgba(237, 76, 92, 1);
+  color: white;
+}
+
+header {
+  padding-top: 55px;
+  margin-bottom: 30px;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  line-height: 1.22;
+  font-weight: 700;
+}

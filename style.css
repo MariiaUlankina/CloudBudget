@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import 'reset.css';
+@import 'hero.css';
 
 .container{
     width: 1100px;
@@ -11,27 +12,5 @@ body,
 html{
     font-family:Lato ;
     font-size: 10px;
-}
-
-header{
-    padding-top: 55px;
-}
-
-header > div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-nav ul{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.logo{
-    font-size:1.8rem;
-    line-height: 1.22;
-    font-weight: 700;
 }
 
