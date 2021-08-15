@@ -72,6 +72,7 @@ nav li a{
     justify-content: center;
     flex-direction: column;
     flex-wrap:wrap;
+    margin-bottom: 94px;
 }
 .hero-content h1{
     font-size: 7.2rem;
