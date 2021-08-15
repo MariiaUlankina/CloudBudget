@@ -1,7 +1,8 @@
 .text-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -9,6 +10,7 @@
     font-size: 3.6rem;
     line-height: 1.19;
     font-weight: 600;
+    margin-bottom: 56px;
 }
 
 .text p{
@@ -17,5 +19,15 @@
     font-weight: 400;
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+
+.row img {
+    width: 540px;
+    height: 311px;
+}
 
 
