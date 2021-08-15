@@ -2,6 +2,10 @@
 @import 'reset.css';
 @import 'hero.css';
 
+*{
+    box-sizing: border-box;
+}
+
 .container{
     width: 1100px;
     margin-left: auto;

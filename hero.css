@@ -17,7 +17,20 @@ header > div {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 140px;
   
+}
+
+img{
+    width: 29px;
+    height: 29px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap:7px;
+    align-items: center;
 }
 
 nav ul {
@@ -26,8 +39,63 @@ nav ul {
   gap: 20px;
 }
 
+nav li a{
+    font-size: 1.4rem;
+    line-height: 1.21;
+    font-weight: 400;
+}
+
+.view{
+    font-weight: 700;
+}
+
 .logo {
   font-size: 1.8rem;
   line-height: 1.22;
   font-weight: 700;
+}
+
+.login{
+    font-size: 1.4rem;
+    line-height: 1.21;
+    font-weight: 400;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 12px 29px;
+}
+
+
+.hero-content h1{
+    font-size: 7.2rem;
+    line-height: 1.19;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.hero-content p{
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 39px;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    background-color: #FFFFFF;
+    color: #ED4C5C;
+    font-size: 1.4rem;
+    line-height: 1.21;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 22px 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 160px;
+    margin-right: auto;
+    margin-left: auto;
 }
