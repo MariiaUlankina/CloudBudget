@@ -2,8 +2,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: 30px;
-  background-color: rgba(237, 76, 92, 1);
+  background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),
+  url("images/Rectangle.jpg");
+  background-size: cover;
+  background-position:center;
   color: white;
 }
 
@@ -17,11 +21,9 @@ header > div {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 140px;
-  
 }
 
-img{
+.icon img{
     width: 29px;
     height: 29px;
 }
@@ -64,7 +66,13 @@ nav li a{
     padding: 12px 29px;
 }
 
-
+.hero-content{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
 .hero-content h1{
     font-size: 7.2rem;
     line-height: 1.19;
